@@ -7,19 +7,17 @@
 #container::before,
 #container::after {
   content: "Special Text";
-   color: #f00;  
-   font-size: 20px;
+  color: #f00; 
+  font-size: 20px;
   position: absolute;
 }
 
 #container::before {
   content: "Before Text"; 
-   top: -40px;  
-   left: 0; 
+  top: -40px;  
 }
 
 #container::after {
-   content: "After Text"; 
+  content: "After Text";  
   bottom: -40px;  
-   right: 0;  
 }

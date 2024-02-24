@@ -4,7 +4,7 @@
   position: relative;
 }
 
-#container::before,
+ 
 #container::after {
   content: "Special Text";
   color: #f00; 
@@ -13,11 +13,11 @@
 }
 
 #container::before {
-  content: "Before Text"; 
+  content: "Before Element"; 
   top: -40px;  
 }
 
 #container::after {
-  content: "After Text";  
+  content: "After Element";  
   bottom: -40px;  
 }
